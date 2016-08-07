@@ -6,6 +6,7 @@ import {Provider} from 'react-redux';
 import {syncHistoryWithStore} from 'react-router-redux';
 import {browserHistory} from 'react-router'
 import {render} from 'react-dom';
+import './sass/styles.scss';
 
 const store = configureStore();
 const history = syncHistoryWithStore(browserHistory, store);
